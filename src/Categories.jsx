@@ -8,7 +8,6 @@ function Categories({ categories, filterItems }) {
           key={category}
           onClick={() => filterItems(category)}
         >
-          <h1></h1>
           {category}
         </button>
       ))}
