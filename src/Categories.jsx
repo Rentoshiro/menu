@@ -9,6 +9,7 @@ function Categories({ categories, filterItems }) {
           onClick={() => filterItems(category)}
         >
           {category}
+          <></>
         </button>
       ))}
     </div>
